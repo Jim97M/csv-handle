@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="property" charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            overflow-y: hidden;
+        }
+
+        .carousel-item {
+            height: 100vh;
+            min-height: 300px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .carousel-caption {
+            bottom: 270px;
+        }
+
+        .carousel-caption h5 {
+            font-size: 45px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 25px;
+        }
+
+        .carousel-caption p {
+            width: 75%;
+            margin: auto;
+            font-size: 18px;
+            line-height: 1.9;
+        }
+
+
+        .navbar-light .navbar-brand {
+            color: rgb(26, 24, 24);
+            font-size: 25px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .navbar-light .navbar-nav .active>.nav-link,
+        .navbar-light .navbar-nav .nav-link.active,
+        .navbar-light .navbar-nav .nav-link.show,
+        .navbar-light .navbar-nav .show>.nav-link {
+            color: rgb(20, 20, 20);
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: rgb(20, 20, 20);
+        }
+
+        .navbar-toggler {
+            background: rgb(20, 20, 20);
+        }
+
+        .navbar-nav {
+            text-align: center;
+        }
+
+        .nav-link {
+            padding: .2rem 1rem;
+        }
+
+        .nav-link.active,
+        .nav-link:focus {
+            color: #fff;
+        }
+
+        .navbar-toggler {
+            padding: 1px 5px;
+            font-size: 18px;
+            line-height: 0.3;
+        }
+
+        .navbar-light .navbar-nav .nav-link:focus,
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #fff;
+        }
+
+        .section {
+            opacity: 3.5;
+            z-index: 2;
+            width: 100%;
+            height: 30vh;
+            background-color: aquamarine;
+            margin-top: -15%;
+            position: relative;
+
+        }
+
+        .section h2 {
+            font-size: larger;
+            font-weight: 600;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .section p {
+            font-size: medium;
+            font-family: sans-serif;
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            .section {
+                margin-top: -30%;
+                height: 35vh;
+                width: 100%;
+                background-color: aquamarine;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+
+            .section {
+                margin-top: -50%;
+                height: 45vh;
+                width: 100%;
+                background-color: aquamarine;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav style="background-color: azure;" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Agency</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://i.postimg.cc/bNQp0RDW/1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        Our Commitment</h5>
+                    <p>
+                        Help out those who wan't to be helped</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://i.postimg.cc/MKqwz5T1/2.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        Our Interest</h5>
+                    <p>
+                        Having Broader Scope In regard to Labor Specifications</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://i.postimg.cc/0y2F6Gpp/3.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        Impact</h5>
+                    <p>
+                        Both Economical and Social additives have culminated into positive results
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <h2>Recruit Agency Offering Guidance Through Human Resource Empowerment</h2>
+            <p>Agency Offering quality human resource guidance through prolific assessment of international job markets
+                and communication with labor standard organizations and unions</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
