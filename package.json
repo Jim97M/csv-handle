@@ -1,0 +1,23 @@
+{
+  "name": "csv-handle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jim97M/csv-handle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jim97M/csv-handle/issues"
+  },
+  "homepage": "https://github.com/Jim97M/csv-handle#readme",
+  "dependencies": {
+    "csv": "^5.5.0"
+  }
+}
