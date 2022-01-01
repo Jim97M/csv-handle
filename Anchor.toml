@@ -1,0 +1,12 @@
+[programs.localnet]
+soladap = "ksG4YojRiak6AZ7RkZHvmHKNNLB2t68DVB3RzLA3RQz"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/jim/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
