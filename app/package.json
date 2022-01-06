@@ -4,6 +4,7 @@
   "description": "React Frontend",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
     "test": "test"
   },
   "author": "James Masika Wabuya",
@@ -18,5 +19,17 @@
     "react": "^17.0.2",
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
