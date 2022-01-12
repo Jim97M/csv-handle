@@ -1,0 +1,24 @@
+{
+  "name": "wserve",
+  "version": "1.0.0",
+  "description": "Encrypted Tunnel",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Web",
+    "Server"
+  ],
+  "author": "James Masika Wabuya",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "helmet": "^5.0.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
